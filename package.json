@@ -16,6 +16,16 @@
         "path": "node_modules/cz-git"
     }
   },
+  "lint-staged": {
+      "*.{js,jsx,ts,tsx}": [
+          "eslint --fix",
+          "pnpm spellcheck"
+      ],
+      "*.css": [
+          "stylelint --fix",
+          "pnpm spellcheck"
+      ]
+  },
   "keywords": [],
   "author": "星语恋心",
   "license": "ISC",
