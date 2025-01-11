@@ -1,0 +1,5 @@
+body {
+    /* padding: 0; */ /* 被注释掉的空规则集会被stylelint命令忽略，还需要vscode响应插件提示 */
+}
+/* .header {
+} */
