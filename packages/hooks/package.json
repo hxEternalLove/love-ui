@@ -1,0 +1,12 @@
+{
+  "name": "@love/hooks",
+  "version": "0.0.1",
+  "description": "星语恋心 hooks，辅助 UI组件库的开发",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "星语恋心",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

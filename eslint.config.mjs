@@ -38,8 +38,8 @@ export default tseslint.config({
     ],
     // 自定义规则 -----------------------上下是基本配置--------------------------------
     rules: {
-        semi: "error",// 强制使用分号
-        "prefer-const": "error",// 使用const而不是let
+        // semi: "error",// 强制使用分号
+        // "prefer-const": "error",// 使用const而不是let
         // "no-console": "warn",// 禁止使用console
     },
     // 语言选项

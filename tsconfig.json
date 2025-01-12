@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",// 允许使用jsx语法
+        "esModuleInterop": true,// 允许使用默认导出
+        "paths": {
+            "@love/ui":["./packages/ui/src"]
+        }
+    }
+}
