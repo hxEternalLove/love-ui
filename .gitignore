@@ -16,5 +16,6 @@ pnpm-lock.yaml
 yarn.lock
 
 node_modules/
-design-constraint.md
 .history/
+.vscode/
+design-constraint.md
