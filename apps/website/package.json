@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "辅助星语恋心 UI组件库文档",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build"
+  },
+  "authors": [
+    "星语"
+  ],
+  "dependencies": {
+    "react-layout-kit": "1.9.0",
+    "@lobehub/ui": "1.144.5",
+    "@love/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "dumi": "^2.4.17",
+    "dumi-theme-lobehub": "^1.15.0",
+    "antd-style": "3.7.1",
+    "lucide-react":"0.471.1",
+    "eslint": "8.57.1",
+    "stylelint":"14.16.1"
+  }
+}
