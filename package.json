@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "星语恋心 UI库",
   "main": "index.js",
+  "packageManager": "pnpm@9.15.0",
   "scripts": {
+    "dev": "turbo dev",
     "dev:docs": "pnpm --filter @love/docs dev",
     "dev:ui": "pnpm --filter @love/ui dev",
-    "dev": "pnpm dev:ui && pnpm dev:docs",
+    "dev:all": "pnpm dev:ui && pnpm dev:docs",
     "lint:es": "eslint packages/**/*.{js,jsx,ts,tsx}",
     "spellcheck": "cspell lint --dot --gitignore --color --cache --show-suggestions \"(packages|apps)/**/*.@(html|js|cjs|mjs|ts|tsx|css|scss|md)\"",
     "prepare": "husky",
@@ -33,25 +35,21 @@
   "author": "星语恋心",
   "license": "ISC",
   "dependencies": {
+  },
+  "devDependencies": {
     "eslint": "^9.18.0",
     "@eslint/js": "^9.18.0",
     "typescript": "^5.7.3",
     "typescript-eslint": "8.19.1",
-
     "cspell": "^8.17.1",
-
     "stylelint": "16.12.0",
-    
-
-
-
-
 
     "husky": "9.0.11",
     "commitlint": "19.3.0",
     "cz-git": "1.9.3",
     "commitizen": "4.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "lint-staged":"15.3.0"
+    "lint-staged":"15.3.0",
+    "turbo": "2.0.5"
   }
 }
